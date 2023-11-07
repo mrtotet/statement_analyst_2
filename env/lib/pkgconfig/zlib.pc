@@ -1,0 +1,13 @@
+prefix=/Users/lengockhoi/Documents/PandasPython/statement_analyst_2/env
+exec_prefix=/Users/lengockhoi/Documents/PandasPython/statement_analyst_2/env
+libdir=/Users/lengockhoi/Documents/PandasPython/statement_analyst_2/env/lib
+sharedlibdir=/Users/lengockhoi/Documents/PandasPython/statement_analyst_2/env/lib
+includedir=/Users/lengockhoi/Documents/PandasPython/statement_analyst_2/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
